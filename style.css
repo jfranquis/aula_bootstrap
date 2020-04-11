@@ -1,0 +1,34 @@
+body{
+    font: 20px Arial, sans-serif;
+}
+
+.navbar{ /*classe */ 
+    background-color:#0099CC; /* plano de fundo da barra de navegação*/
+    color: thistle;
+}
+
+.quemSomos{
+    background-color: #CFD8DC;
+    color:#303F9F ;
+}    
+
+.margin{
+    padding-bottom: 50px ;
+    padding-top: 10px ;
+}
+
+.parceiros{
+    background-color: #009999 ;
+    color: white;
+}
+
+.servicos{
+    background-color: #CFD8DC;
+    color: #303F9F;
+}
+
+.bg-footer{
+    background-color: #9E9E9E;
+    color: black;
+
+}
