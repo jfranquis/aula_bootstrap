@@ -1,0 +1,120 @@
+<!-- Booststrap: 
+  1-  É um framework para desenvolvimento de sites responsivos (Site que conseguimos usar em notebook, celular, tablet)
+  2- Possui uma vas biblioteca de componentes que facilita e agiliza o desenvolvimento de páginas web
+  3- É um dos framework mais conhecidos e usados para desenvolvimento front-end
+  4- Bootstrap Conjunto de estilos para classes e componentes
+
+
+
+-->
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<!-- Linguagem -->
+
+<head>
+    <title>Minha página</title>
+    <meta charset="utf-8">
+    <!--O atributo charset especifica a codificação de caracteres para o documento HTML.-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> <!-- criar link do bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <!--Criar uma barra de navegação grande e clara com margem-->
+        <a class="navbar-brand" href="#">
+            <!-- Link-->
+            <img src="/bootstrap/img/logo.png" width="100" height="100">
+            <!-- Criar link para imagem + largura e comprimento-->
+        </a>
+        <div class="collapse navbar-collapse">
+            <!-- Para criar divisão e aplicar estilos que estão contidos na classe e q estão dentro desta divisão -->
+            <ul class="navbar-nav">
+                <!--A tag <ul> define uma lista não ordenada (com marcadores) -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemSomos">Quem somos</a>
+                    <!--Link para direcionar na subpágina -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a> <!-- -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a> <!-- -->
+                </li>
+            </ul>
+            <div>
+    </nav>
+
+    <section id="quemSomos">
+        <!-- Seção e id: quemSomos para linkar com o item da barra de navegação-->
+        <div class="container-fluid quemSomos text-center margin">
+            <!--Container: Criar margem/espaçamento para começar a trabalhar no meio da página e o fluid usa a página inteiro / text center para centralizar o texto -->
+            <h3 class="margin">QUEM SOMOS</h3>
+            <!---->
+            <img src="/bootstrap/img/Equipe.jpg" class="rounded-circle" width="400" height="400" alt="Quem Somos">
+            <!--class rounded deixar a imagem em circulo-->
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aut! Quos quidem nihil velit
+                recusandae minima molestias nisi perspiciatis tempora natus dolores veritatis vitae aspernatur aliquam
+                iste doloribus, at nobis.</h3>
+    </section>
+
+    <selection id="parceiros">
+        <!---->
+        <div class="container-fluid text-center margin parceiros">
+            <h3>PARCEIROS</h3>
+            <div class="container">
+                <!--dividir a página em 3 colunas -->
+                <div class="row">
+                    <!-- Inicia de fato as colunas-->
+                    <div class="col-lg-4">
+                        <!--md = médio / lg=Grande forma de pode controlar por dispositivo -->
+                        <img src="bootstrap/img/digitalInnpvation.png" width="100%" alt="Digital Innovation">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/bootstrap/img/digitalInnpvation.png" width="100%" alt="Digital Innovation">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/bootstrap/img/digitalInnpvation.png" width="100%" alt="Digital Innovation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </selection>
+
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">SERVIÇOS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4"> <!-- Colunas: 12 divido pela quantidade de colunas ex: 12/4 = 3 colunas-->
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium corporis explicabo odit ut minus voluptates rem, sapiente ullam cumque! Ipsa voluptatum aut cum aliquam, asperiores voluptate eaque quod rerum laudantium!
+                             </p>
+                        <img src="bootstrap/img/work.jpg" width="100%" alt="Serviços">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda officia sint jahjhs joiopas  vero atque minus quos vitae ipsa at amet perspiciatis possimus, incidunt quisquam obcaecati doloribus fugiat suscipit porro. Unde, quisquam!
+                             </p>
+                        <img src="bootstrap/img/home-office.jpg" width="100%" alt="Serviços">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, harum iste, corporis neque eius veniam qui, suscipit laboriosam libero deserunt voluptatum iusto similique sapiente. Maxime, accusantium nam? Atque, iusto tenetur.
+                            </p>
+                        <img src="bootstrap/img/estudante.jpg" width="100%" alt="Serviços">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="container-fluid text-center bg-footer margin">
+        <P> Desenvolvido por Janaina Franquis®️</P>
+    </footer>
+
+</body>
+
+</html>
